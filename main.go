@@ -1,9 +1,11 @@
 package main
 
 import (
-	procfiledocker "golang-stuff/procfile-docker"
+	// procfiledocker "golang-stuff/procfile-docker"
+	simpleserver "golang-stuff/simple-server"
 )
 
 func main() {
-  procfiledocker.Main()
+  // procfiledocker.Main()
+  simpleserver.Run()
 }
