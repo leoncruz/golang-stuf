@@ -1,0 +1,2 @@
+database: postgres:14-alpine
+cache:    redis:6
